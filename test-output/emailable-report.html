@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,737</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Ethoca_TestNG_2</td><td><a href="#m0">main</a></td><td rowspan="1">1446172549482</td><td rowspan="1">7127</td></tr></tbody></table><h2>Default test</h2><h3 id="m0">Ethoca_TestNG_2#main</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: The given selector adjustform qty is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Command duration or timeout: 40 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;Richard&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c8630bdb-fd13-46c4-af59-f7e24dad69bc
+*** Element info: {Using=class name, value=adjustform qty}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:467)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at Ethoca_TestNG_2.main(Ethoca_TestNG_2.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector adjustform qty is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;Richard&apos;, ip: &apos;192.168.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/Li/AppData/Local/Temp/anonymous145829680046820357webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10633)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Li/AppData/Local/Temp/anonymous145829680046820357webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10664)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/Li/AppData/Local/Temp/anonymous145829680046820357webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Li/AppData/Local/Temp/anonymous145829680046820357webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Li/AppData/Local/Temp/anonymous145829680046820357webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/Li/AppData/Local/Temp/anonymous145829680046820357webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
