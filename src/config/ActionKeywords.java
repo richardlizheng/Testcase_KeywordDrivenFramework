@@ -152,7 +152,7 @@ public class ActionKeywords {
 			 DriverScript.bResult = false;
 			}
 		 }catch(Exception e){
-			 Log.error("Not able to Enter UserName due to " + e.getMessage());
+			 Log.error("Can not compare value due to " + e.getMessage());
 			 DriverScript.bResult = false;
 		 	}
 		}
@@ -160,12 +160,18 @@ public class ActionKeywords {
 	public static void compareContent(String object, String data){
 	      String result = driver.getPageSource();
 	      Log.info("It is going to compare the page content with " + data);
+	      try{
 	      if (result.contains(data)) {
 	    	  Log.info("The page content validation is passed");
 	      }
-	      else
+	      else  {
 	    	  Log.info("This page doesn't contain " + data);
 			  DriverScript.bResult = false;
+	      }
+	      }catch(Exception e){
+	 		 Log.error("Can not compare content due to " + e.getMessage());
+			 DriverScript.bResult = false;
+	      }
 	}
 		
 

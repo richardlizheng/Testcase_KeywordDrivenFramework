@@ -9,9 +9,7 @@
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/commons-codec-1.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/commons-logging-1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/java-client-2.2.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/java-client-3.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/log4j-1.2.13.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/poi-3.10-FINAL-20140208.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/poi-examples-3.10-FINAL-20140208.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/poi-excelant-3.10-FINAL-20140208.jar"/>
@@ -20,13 +18,7 @@
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/poi-scratchpad-3.10-FINAL-20140208.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/stax-api-1.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/xmlbeans-2.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Downloads/ojdbc6.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
@@ -85,5 +77,8 @@
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/selenium-2.48.2/libs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/selenium-2.48.2/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/selenium-2.48.2/libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/apache-log4j-2.4.1-bin/log4j-api-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Li/Google Drive/QA/Selenium/SeleniumLib/apache-log4j-2.4.1-bin/log4j-core-2.4.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

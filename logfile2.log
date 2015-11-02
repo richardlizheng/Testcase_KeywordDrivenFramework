@@ -1,0 +1,164 @@
+2015-11-01 23:40:31,207 INFO u.Log [main] ****************************************************************************************
+2015-11-01 23:40:31,208 INFO u.Log [main] ****************************************************************************************
+2015-11-01 23:40:31,209 INFO u.Log [main] $$$$$$$$$$$$$$$$$$$$$                 BuyMagicMouse       $$$$$$$$$$$$$$$$$$$$$$$$$
+2015-11-01 23:40:31,209 INFO u.Log [main] ****************************************************************************************
+2015-11-01 23:40:31,209 INFO u.Log [main] ****************************************************************************************
+2015-11-01 23:40:31,211 ERROR u.Log [main] Class Utils | Method getCellData | Exception desc : null
+2015-11-01 23:40:31,213 INFO u.Log [main] Opening Browser
+2015-11-01 23:40:34,661 INFO u.Log [main] Firefox browser started
+2015-11-01 23:40:37,609 INFO u.Log [main] Navigating to URL
+2015-11-01 23:40:40,241 INFO u.Log [main] Found element by default type of id
+2015-11-01 23:40:40,292 INFO u.Log [main] Moving mouse to dropdown menu men_sub
+2015-11-01 23:40:40,485 INFO u.Log [main] Found element by default type of id
+2015-11-01 23:40:40,485 INFO u.Log [main] Clicking on Web Element btn_Accessories
+2015-11-01 23:40:44,842 INFO u.Log [main] Found element by name
+2015-11-01 23:40:44,842 INFO u.Log [main] Clicking on Web Element btn_BuyMagicMouse
+2015-11-01 23:40:46,044 INFO u.Log [main] Find element by className
+2015-11-01 23:40:46,044 INFO u.Log [main] Clicking on Web Element btn_GotoCheckout
+2015-11-01 23:40:49,977 INFO u.Log [main] It is going to compare the value with1
+2015-11-01 23:40:49,977 INFO u.Log [main] Compare value of web element fil_Quantity
+2015-11-01 23:40:49,977 INFO u.Log [main] The expect result equals actual result on fil_Quantity
+2015-11-01 23:40:50,089 INFO u.Log [main] Find element by className
+2015-11-01 23:40:50,089 INFO u.Log [main] Clicking on Web Element btn_Continue
+2015-11-01 23:40:50,284 INFO u.Log [main] Entering the text in fil_Email
+2015-11-01 23:40:50,907 INFO u.Log [main] Entering the text in fil_Firstname
+2015-11-01 23:40:51,553 INFO u.Log [main] Entering the text in fil_Lastname
+2015-11-01 23:40:51,712 INFO u.Log [main] Entering the text in fil_Address
+2015-11-01 23:40:51,921 INFO u.Log [main] Entering the text in fil_City
+2015-11-01 23:40:52,062 INFO u.Log [main] Entering the text in fil_Province
+2015-11-01 23:40:52,182 INFO u.Log [main] Selecting the option from ddm_Country
+2015-11-01 23:40:52,458 INFO u.Log [main] Entering the text in fil_Postcod
+2015-11-01 23:40:52,589 INFO u.Log [main] Entering the text in fil_PhoneNumber
+2015-11-01 23:40:52,779 INFO u.Log [main] Find element by className
+2015-11-01 23:40:52,779 INFO u.Log [main] Clicking on Web Element btn_Purchase
+2015-11-01 23:41:05,481 INFO u.Log [main] It is going to compare the page content with Thank you, your purchase is pending
+2015-11-01 23:41:05,481 INFO u.Log [main] The page content validation is passed
+2015-11-01 23:41:05,560 INFO u.Log [main] Closing the browser
+2015-11-01 23:41:06,633 INFO u.Log [main] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2015-11-01 23:41:06,633 INFO u.Log [main] X
+2015-11-01 23:41:06,634 INFO u.Log [main] X
+2015-11-01 23:41:06,634 INFO u.Log [main] X
+2015-11-01 23:41:06,634 INFO u.Log [main] X
+2015-11-01 24:50:43,254 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:50:43,256 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:50:43,256 INFO u.Log [main] $$$$$$$$$$$$$$$$$$$$$                 BuyMagicMouse       $$$$$$$$$$$$$$$$$$$$$$$$$
+2015-11-01 24:50:43,256 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:50:43,256 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:50:43,258 ERROR u.Log [main] Class Utils | Method getCellData | Exception desc : null
+2015-11-01 24:50:43,259 INFO u.Log [main] Opening Browser
+2015-11-01 24:50:46,657 INFO u.Log [main] Firefox browser started
+2015-11-01 24:50:48,482 INFO u.Log [main] Navigating to URL
+2015-11-01 24:50:50,913 INFO u.Log [main] Found element by default type of id
+2015-11-01 24:50:50,948 INFO u.Log [main] Moving mouse to dropdown menu men_sub
+2015-11-01 24:50:51,099 INFO u.Log [main] Found element by default type of id
+2015-11-01 24:50:51,099 INFO u.Log [main] Clicking on Web Element btn_Accessories
+2015-11-01 24:50:55,238 INFO u.Log [main] Found element by name
+2015-11-01 24:50:55,238 INFO u.Log [main] Clicking on Web Element btn_BuyMagicMouse
+2015-11-01 24:50:56,840 INFO u.Log [main] Find element by className
+2015-11-01 24:50:56,841 INFO u.Log [main] Clicking on Web Element btn_GotoCheckout
+2015-11-01 24:51:00,710 INFO u.Log [main] It is going to compare the value with1
+2015-11-01 24:51:00,710 INFO u.Log [main] Compare value of web element fil_Quantity
+2015-11-01 24:51:00,710 INFO u.Log [main] The expect result equals actual result on fil_Quantity
+2015-11-01 24:51:00,802 INFO u.Log [main] Find element by className
+2015-11-01 24:51:00,802 INFO u.Log [main] Clicking on Web Element btn_Continue
+2015-11-01 24:51:00,985 INFO u.Log [main] Entering the text in fil_Email
+2015-11-01 24:51:01,615 INFO u.Log [main] Entering the text in fil_Firstname
+2015-11-01 24:51:01,789 INFO u.Log [main] Entering the text in fil_Lastname
+2015-11-01 24:51:01,943 INFO u.Log [main] Entering the text in fil_Address
+2015-11-01 24:51:02,128 INFO u.Log [main] Entering the text in fil_City
+2015-11-01 24:51:02,278 INFO u.Log [main] Entering the text in fil_Province
+2015-11-01 24:51:02,395 INFO u.Log [main] Selecting the option from ddm_Country
+2015-11-01 24:51:02,641 INFO u.Log [main] Entering the text in fil_Postcod
+2015-11-01 24:51:02,763 INFO u.Log [main] Entering the text in fil_PhoneNumber
+2015-11-01 24:51:02,948 INFO u.Log [main] Find element by className
+2015-11-01 24:51:02,948 INFO u.Log [main] Clicking on Web Element btn_Purchase
+2015-11-01 24:51:09,681 INFO u.Log [main] It is going to compare the page content with Thank you, your purchase is pending
+2015-11-01 24:51:09,681 INFO u.Log [main] The page content validation is passed
+2015-11-01 24:51:09,756 INFO u.Log [main] Closing the browser
+2015-11-01 24:51:10,845 INFO u.Log [main] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2015-11-01 24:51:10,846 INFO u.Log [main] X
+2015-11-01 24:51:10,846 INFO u.Log [main] X
+2015-11-01 24:51:10,846 INFO u.Log [main] X
+2015-11-01 24:51:10,846 INFO u.Log [main] X
+2015-11-01 24:53:17,107 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:53:17,108 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:53:17,108 INFO u.Log [main] $$$$$$$$$$$$$$$$$$$$$                 BuyMagicMouse       $$$$$$$$$$$$$$$$$$$$$$$$$
+2015-11-01 24:53:17,108 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:53:17,108 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:53:17,110 ERROR u.Log [main] Class Utils | Method getCellData | Exception desc : null
+2015-11-01 24:53:17,111 INFO u.Log [main] Opening Browser
+2015-11-01 24:53:20,675 INFO u.Log [main] Firefox browser started
+2015-11-01 24:53:22,844 INFO u.Log [main] Navigating to URL
+2015-11-01 24:53:25,155 INFO u.Log [main] Found element by default type of id
+2015-11-01 24:53:25,190 INFO u.Log [main] Moving mouse to dropdown menu men_sub
+2015-11-01 24:53:25,419 INFO u.Log [main] Found element by default type of id
+2015-11-01 24:53:25,419 INFO u.Log [main] Clicking on Web Element btn_Accessories
+2015-11-01 24:53:28,166 INFO u.Log [main] Found element by name
+2015-11-01 24:53:28,167 INFO u.Log [main] Clicking on Web Element btn_BuyMagicMouse
+2015-11-01 24:53:29,069 INFO u.Log [main] Find element by className
+2015-11-01 24:53:29,069 INFO u.Log [main] Clicking on Web Element btn_GotoCheckout
+2015-11-01 24:53:32,826 INFO u.Log [main] It is going to compare the value with1
+2015-11-01 24:53:32,826 INFO u.Log [main] Compare value of web element fil_Quantity
+2015-11-01 24:53:32,826 INFO u.Log [main] The expect result equals actual result on fil_Quantity
+2015-11-01 24:53:32,994 INFO u.Log [main] Find element by className
+2015-11-01 24:53:32,994 INFO u.Log [main] Clicking on Web Element btn_Continue
+2015-11-01 24:53:33,207 INFO u.Log [main] Entering the text in fil_Email
+2015-11-01 24:53:33,828 INFO u.Log [main] Entering the text in fil_Firstname
+2015-11-01 24:53:34,074 INFO u.Log [main] Entering the text in fil_Lastname
+2015-11-01 24:53:34,200 INFO u.Log [main] Entering the text in fil_Address
+2015-11-01 24:53:34,356 INFO u.Log [main] Entering the text in fil_City
+2015-11-01 24:53:34,525 INFO u.Log [main] Entering the text in fil_Province
+2015-11-01 24:53:34,640 INFO u.Log [main] Selecting the option from ddm_Country
+2015-11-01 24:53:35,179 INFO u.Log [main] Entering the text in fil_Postcod
+2015-11-01 24:53:35,288 INFO u.Log [main] Entering the text in fil_PhoneNumber
+2015-11-01 24:53:35,427 INFO u.Log [main] Find element by className
+2015-11-01 24:53:35,428 INFO u.Log [main] Clicking on Web Element btn_Purchase
+2015-11-01 24:53:44,174 INFO u.Log [main] It is going to compare the page content with Thank you, your purchase is pending
+2015-11-01 24:53:44,174 INFO u.Log [main] The page content validation is passed
+2015-11-01 24:53:44,245 INFO u.Log [main] Closing the browser
+2015-11-01 24:53:45,325 INFO u.Log [main] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2015-11-01 24:53:45,325 INFO u.Log [main] X
+2015-11-01 24:53:45,325 INFO u.Log [main] X
+2015-11-01 24:53:45,326 INFO u.Log [main] X
+2015-11-01 24:53:45,326 INFO u.Log [main] X
+2015-11-01 24:58:06,710 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:58:06,711 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:58:06,711 INFO u.Log [main] $$$$$$$$$$$$$$$$$$$$$                 BuyMagicMouse       $$$$$$$$$$$$$$$$$$$$$$$$$
+2015-11-01 24:58:06,711 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:58:06,712 INFO u.Log [main] ****************************************************************************************
+2015-11-01 24:58:06,713 ERROR u.Log [main] Class Utils | Method getCellData | Exception desc : null
+2015-11-01 24:58:06,714 INFO u.Log [main] Opening Browser
+2015-11-01 24:58:10,158 INFO u.Log [main] Firefox browser started
+2015-11-01 24:58:12,136 INFO u.Log [main] Navigating to URL
+2015-11-01 24:58:14,443 INFO u.Log [main] Found element by default type of id
+2015-11-01 24:58:14,483 INFO u.Log [main] Moving mouse to dropdown menu men_sub
+2015-11-01 24:58:14,638 INFO u.Log [main] Found element by default type of id
+2015-11-01 24:58:14,639 INFO u.Log [main] Clicking on Web Element btn_Accessories
+2015-11-01 24:58:17,177 INFO u.Log [main] Found element by name
+2015-11-01 24:58:17,177 INFO u.Log [main] Clicking on Web Element btn_BuyMagicMouse
+2015-11-01 24:58:18,068 INFO u.Log [main] Find element by className
+2015-11-01 24:58:18,068 INFO u.Log [main] Clicking on Web Element btn_GotoCheckout
+2015-11-01 24:58:20,580 INFO u.Log [main] It is going to compare the value with1
+2015-11-01 24:58:20,581 INFO u.Log [main] Compare value of web element fil_Quantity
+2015-11-01 24:58:20,581 INFO u.Log [main] The expect result equals actual result on fil_Quantity
+2015-11-01 24:58:20,688 INFO u.Log [main] Find element by className
+2015-11-01 24:58:20,688 INFO u.Log [main] Clicking on Web Element btn_Continue
+2015-11-01 24:58:20,896 INFO u.Log [main] Entering the text in fil_Email
+2015-11-01 24:58:21,512 INFO u.Log [main] Entering the text in fil_Firstname
+2015-11-01 24:58:21,693 INFO u.Log [main] Entering the text in fil_Lastname
+2015-11-01 24:58:21,865 INFO u.Log [main] Entering the text in fil_Address
+2015-11-01 24:58:22,058 INFO u.Log [main] Entering the text in fil_City
+2015-11-01 24:58:22,173 INFO u.Log [main] Entering the text in fil_Province
+2015-11-01 24:58:22,280 INFO u.Log [main] Selecting the option from ddm_Country
+2015-11-01 24:58:22,799 INFO u.Log [main] Entering the text in fil_Postcod
+2015-11-01 24:58:23,003 INFO u.Log [main] Entering the text in fil_PhoneNumber
+2015-11-01 24:58:23,178 INFO u.Log [main] Find element by className
+2015-11-01 24:58:23,179 INFO u.Log [main] Clicking on Web Element btn_Purchase
+2015-11-01 24:58:30,037 INFO u.Log [main] It is going to compare the page content with Thank you, your purchase is pending
+2015-11-01 24:58:30,038 INFO u.Log [main] The page content validation is passed
+2015-11-01 24:58:30,111 INFO u.Log [main] Closing the browser
+2015-11-01 24:58:31,256 INFO u.Log [main] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2015-11-01 24:58:31,257 INFO u.Log [main] X
+2015-11-01 24:58:31,257 INFO u.Log [main] X
+2015-11-01 24:58:31,257 INFO u.Log [main] X
+2015-11-01 24:58:31,257 INFO u.Log [main] X

@@ -4,7 +4,8 @@ import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.util.Properties;
 
-import org.apache.log4j.xml.DOMConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import config.ActionKeywords;
 import config.Constants;
@@ -34,7 +35,6 @@ public class DriverScript {
 	
     public static void main(String[] args) throws Exception {
     	ExcelUtils.setExcelFile(Constants.Path_TestData);
-    	DOMConfigurator.configure("log4j.xml");
     	String Path_OR = Constants.Path_OR;
 		FileInputStream fs = new FileInputStream(Path_OR);
 		OR= new Properties(System.getProperties());
